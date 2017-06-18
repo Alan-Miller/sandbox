@@ -3,7 +3,6 @@ import guests from './GuestArray.js';
 import {add} from './GuestArray.js';
 
 $(document).ready(function() {
-  // alert(guests);
   const newGuest = $('.new-guest')
       , addGuest = $('.add-guest')
       , guestList = $('.guest-list');
