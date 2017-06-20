@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../css/App.css';
 import One from './One';
 import Two from './Two';
+import Three from './Three';
 
 export default class App extends Component {
   render() {
@@ -11,10 +12,11 @@ export default class App extends Component {
           <h1>Header!</h1>
         </header>
         <main>
-            <One color="red">
-              login button
-            </One>
+          <One color="red">
+            login button
+          </One>
           <Two />
+          <Three />
         </main>
       </div>
     )

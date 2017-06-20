@@ -7,18 +7,23 @@
 
 .App-header {
   background-color: #222;
-  height: 7vh;
+  height: 70px;
   padding: 20px;
   color: white;
 }
 
-section {
-  height: 46.5vh;
+.section-one, .section-two {
+  height: 120px;
   width: 100%;
   position: relative;
 }
 .section-two {
   background-color: indianred;
+  height: 80px;
+}
+.section-three {
+  background-color: RGBA(20, 111, 214, 1.00);
+  height: calc(100vh - 270px);
 }
 
 h3 {
@@ -29,8 +34,8 @@ h3 {
 }
 
 button {
+  margin-top: 15px;
   padding: 10px 24px;
-  margin: 20px;
   font-size: 2em;
   border-radius: 50px;
   background-color: indianred;
@@ -39,15 +44,19 @@ button {
 }
 
 input {
-  display: block;
+  display: inline-block;
+  margin-top: 15px;
   padding: 20px;
-  margin: 20px;
   border-radius: 50px;
   font-size: 1.5em;
-  /*position: absolute;
-  left: 50%;
-  transform: translateX(-50%);*/
   outline: none;
+}
+
+li {
+  font-size: 1.5em;
+  color: white;
+  padding: 10px;
+  list-style: none;
 }
 
 /*.App-logo {
