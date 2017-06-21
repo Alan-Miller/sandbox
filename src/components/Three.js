@@ -16,7 +16,7 @@ class Three extends Component {
   getData(serviceFn) {
     serviceFn().then(apiData => {
       this.setState({
-        itemsArray: apiData.results || apiData
+        itemsArray: apiData
       })
       console.log('this.state.itemsArray', this.state.itemsArray);
     })
