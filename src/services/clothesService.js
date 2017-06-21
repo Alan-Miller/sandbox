@@ -1,4 +1,4 @@
-// export const getClothes = function() {
-//   return fetch('https://practiceapi.devmountain.com/products')
-//   .then(res => res.json());
-// }
+export const getClothes = function() {
+  return fetch('https://practiceapi.devmountain.com/products')
+  .then(res => res.json());
+}
