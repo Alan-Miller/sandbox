@@ -9,7 +9,6 @@ class Grandparent extends Component {
 
   passMsg = (name) => {
     msg = name;
-    console.log(msg);
     this.forceUpdate();
     return name;
   }
