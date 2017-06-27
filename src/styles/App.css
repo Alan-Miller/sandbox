@@ -2,55 +2,71 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-transform: capitalize;
 }
 html {
-  background-color: #222;
+  background-color: #777;
+  font-size: 16px;
 }
-
-.family > div {
-  /*background-color: RGBA(69, 161, 249, 1.00);*/
-}
-
 .family {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin: 8px 0 8px 0;
+  font-size: 1.7em;
 }
 
-.grandchild, .child, .parent, .grandparent {
-  height: calc(100vh / 4);
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.child, .grandchild {
+  top: 200px;
+  justify-content: space-between;
 }
 
-#marian {
+.grandparent {
   background-color: RGBA(69, 161, 249, 1.00);
+  border-left: thick solid RGBA(44, 47, 56, 1.00);
+  border-top: thick solid RGBA(44, 47, 56, 1.00);
+  border-right: thick solid white;
+  border-bottom: thick solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#michelle, #shannon {
+.parent {
   background-color: RGBA(88, 199, 99, 1.00);
+  display: flex;
+  flex-direction: row;
+  top: 200px;
+  margin: 0 10vw 0 10vw;
+  justify-content: center;
 }
-#alan, #claire {
+.child {
   background-color: RGBA(234, 94, 104, 1.00);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#oliver {
+.grandchild {
   background-color: RGBA(247, 192, 90, 1.00);
 }
-#alan, #claire, #lauren, #marian, #michelle, #oliver, #olivia, #shannon {
+.grandparent, .parent, .child, .grandchild {
   height: 140px;
-  width: 270px;
-  margin: 20px;
+  width: 20vw;
   border-radius: 20px;
   position: relative;
 }
 p {
   position: absolute;
-  margin-top: 7px;
-  /*top: 50%;*/
+  margin-top: .7em;
   left: 50%;
   transform: translate(-50%);
 }
 
-.mathews, .moore {
+.Mathews, .Moore {
   border: thick solid white;
+  min-width: 20vw;
+  margin-left: 12px;
+}
+.Miller {
+  border: thick solid RGBA(44, 47, 56, 1.00);
+  position: relative;
+  right: 110px;
 }
