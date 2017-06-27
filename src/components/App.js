@@ -1,8 +1,17 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
-import registerServiceWorker from 'registerServiceWorker';
+import '../styles/App.css';
+import Grandparent from './Grandparent'
+
+class App extends Component {
 
 
+  render() {
+    return(
+      <div className="family">
+        <Grandparent/>
+      </div>
+    )
+  }
+}
 
-ReactDom.render(<App id="App"/>, document.getElementById('root'));
-registerServiceWorker();
+export default App;
