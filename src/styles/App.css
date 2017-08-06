@@ -48,7 +48,7 @@ html {
 }
 .grandparent, .parent, .child, .grandchild {
   height: 140px;
-  width: 20vw;
+  width: 17vw;
   border-radius: 20px;
   position: relative;
 }
@@ -71,7 +71,7 @@ p {
 
 .Mathews, .Moore {
   border: thick solid white;
-  min-width: 20vw;
+  min-width: 17vw;
   margin-left: 12px;
 }
 .Miller {

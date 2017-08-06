@@ -5,7 +5,7 @@ class Child extends Component {
 
   render() {
     const family = this.props.branch.name === "Lauren" ? "Mathews" : this.props.family;
-    const msg = this.props.branch.name !== "Alan" ? <div className="msgButton" onClick={() => this.props.mooreGirlsMsg(this.props.branch.name)}>Say Hi</div> : <div className="button">{this.props.toAlan}</div>;
+    const msg = this.props.branch.name !== "Alan" ? <div className="msgButton" onClick={() => this.props.mooreGirlsMsg(this.props.branch.name)}>SAY HI</div> : <div className="button">{this.props.toAlan}</div>;
 
     return (
       <div>
